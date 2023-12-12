@@ -1,15 +1,15 @@
-# miR_RF-TOOL
-The "miR_RF-TOOL" repository hosts a machine learning-based application designed to evaluate the authenticity of pre-microRNAs. 
+# miR_RF APPLICATION
+The "miR_RF APPLICATION" repository hosts a machine learning-based application designed to evaluate the authenticity of pre-microRNAs. 
 
 ---
 
-# miR_RF Tool Description
+# miR_RF APPLICATION Description
 
-The miR_RF Tool is a predictive tool for evaluating pre-microRNAs based on the machine learning algorithm Random Forest. It consists of Python and R scripts designed to process RNAfold Vienna output, extract features, perform machine learning analysis and generate predictions.
+The miR_RF application is a predictive application for evaluating pre-microRNAs based on the machine learning algorithm Random Forest. It consists of Python and R scripts designed to process RNAfold Vienna output, extract features, perform machine learning analysis and generate predictions.
 
 ### Overview
 
-The miR_RF Tool is comprised of Python and R scripts:
+The miR_RF application is comprised of Python and R scripts:
 - **Python Script (Pre-processing):**
   - Extracts features from pre-miRNAs present in RNAfold output files.
   - Converts extracted features into numerical format and produces an intermediate file for R processing.
@@ -23,7 +23,7 @@ The miR_RF Tool is comprised of Python and R scripts:
 
 ### Input Requirements
 
-The tool accepts RNAfold output files as input, structured in the following format:
+The application accepts RNAfold output files as input, structured in the following format:
 - A file with a header line starting with ">" followed by five subsequent lines for each pre-miRNA. 
 For every input string, made by the header line followed by the sequence, the output is composed by four lines corresponding to respectively:
 1. MFE structure, reported within round brackets;
@@ -34,7 +34,7 @@ the thermodynamic ensemble, reported in curly brackets.
    
 - Multi-FASTA format is also supported.
 
-In order to obtain the right input for the miR_RF tool, you can install RNAfold Vienna package on your machine, in command line. To install this package run one of the following:
+In order to obtain the right input for the miR_RF application, you can install RNAfold Vienna package on your machine, in command line. To install this package run one of the following:
 
 ```bash
 conda install -c bioconda viennarna
@@ -47,11 +47,11 @@ And then type:
 RNAfold -p -d2 --noLP --noDP --noPS <input_file> > <output_RNAfold_file>
 ```
 
-This command creates the <output_RNAfold_file> file, which is the input for the miR_RF tool. 
+This command creates the <output_RNAfold_file> file, which is the input for the miR_RF application. 
 
-- The miR_RF Tool accommodates a range of input file extensions. Whether it's a .txt, .out, or another format, the tool is engineered to process pre-miRNA data 
+- The miR_RF application accommodates a range of input file extensions. Whether it's a .txt, .out, or another format, the application is engineered to process pre-miRNA data 
   effectively, irrespective of the file extension. 
-- Important note: the header cannot contain values separated by the tab symbol "\t". Therefore, the tool converts by default any "\t" present in the header into a single 
+- Important note: the header cannot contain values separated by the tab symbol "\t". Therefore, the application converts by default any "\t" present in the header into a single 
   space " ". 
 
   For example, from this input:
@@ -94,23 +94,23 @@ The output file contains pre-miRNA names and their corresponding predictions:
 
 ### Installation
 
-Before beginning the installation, I recommend creating a new directory to neatly store all the requirements for the miR_RF Tool. This will facilitate a clearer and more organized environment for running the tool efficiently. 
-To create a new directory, for example named "miR_RF_Tool", in your current location, use the following command in the terminal:
+Before beginning the installation, I recommend creating a new directory to neatly store all the requirements for the miR_RF . This will facilitate a clearer and more organized environment for running the application efficiently. 
+To create a new directory, for example named "miR_RF_application", in your current location, use the following command in the terminal:
 
 ```bash
-mkdir miR_RF_tool
+mkdir miR_RF_application
 ```
-This command will create a new directory named "miR_RF_Tool" within the current location. Users can then put the necessary files here. 
+This command will create a new directory named "miR_RF_application" within the current location. Users can then put the necessary files here. 
 
 1. Conda Installation in Command Line:
    - Follow the provided instructions in the 'CONDA installation instructions' file to install Conda on your system in the directory just created.
 
 2. Activating the Conda environment:
-   - Once Conda is installed, use the provided `configuration_file.yml` file to create an environment suitable for running the miR_RF Tool.
+   - Once Conda is installed, use the provided `configuration_file.yml` file to create an environment suitable for running the miR_RF application.
    Download the `configuration_file.yml` file and copy it in the new directory, as follows:
 
    ```bash
-   cp configuration_file.yml ~/miR_RF_tool
+   cp configuration_file.yml ~/miR_RF_application
    ```
    - In the command line, activate conda with the following command:
 
@@ -130,9 +130,9 @@ This command will create a new directory named "miR_RF_Tool" within the current 
    ```bash
    conda activate miR_RF
    ```
-   This step ensures that the appropriate environment, complete with all the necessary channels and packages required to run the miR_RF Tool, is activated. The 
-   configuration_file.yml contains a specific set of channel configurations and package installations essential for the execution of the tool.
-   By following these steps, you will have the correct environment with pre-configured channels and packages, ready to utilize the miR_RF Tool efficiently.
+   This step ensures that the appropriate environment, complete with all the necessary channels and packages required to run the miR_RF application, is activated. The 
+   configuration_file.yml contains a specific set of channel configurations and package installations essential for the execution of the application.
+   By following these steps, you will have the correct environment with pre-configured channels and packages, ready to utilize the miR_RF application efficiently.
 
 
 3. Setting up the directory:
@@ -153,13 +153,13 @@ This command will create a new directory named "miR_RF_Tool" within the current 
    Type:
 
    ```bash
-   ~/miR_RF_tool$ ls
+   ~/miR_RF_application$ ls
    Anaconda3-2023.09-0-Linux-x86_64.sh configuration_file.yml trained_model.RDS df_feat_ext.py make_pred.R application.py
    ```
   
 
-4. Running the miR_RF Tool:
-   - To utilize the miR_RF Tool for predicting pre-miRNAs, use the following command in the terminal or command line interface:
+4. Running the miR_RF application:
+   - To utilize the miR_RF application for predicting pre-miRNAs, use the following command in the terminal or command line interface:
 
    ```bash
    python3 application.py <input_file> <output_file>
