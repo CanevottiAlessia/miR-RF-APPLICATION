@@ -103,7 +103,7 @@ mkdir miR_RF_application
 This command will create a new directory named "miR_RF_application" within the current location. Users can then put the necessary files here. 
 
 1. Conda Installation in Command Line:
-   - Follow the provided instructions in the 'CONDA installation instructions' file to install Conda on your system in the directory just created.
+   - Follow the provided instructions in the 'CONDA installation' file to install Conda on your system in the directory just created.
 
 2. Activating the Conda environment:
    - Once Conda is installed, use the provided `configuration_file.yml` file to create an environment suitable for running the miR_RF application.
