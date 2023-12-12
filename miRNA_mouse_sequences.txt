@@ -1,0 +1,36 @@
+>mmu-let-7g MI0000137 Mus musculus let-7g stem-loop
+CCAGGCUGAGGUAGUAGUUUGUACAGUUUGAGGGUCUAUGAUACCACCCGGUACAGGAGAUAACUGUACAGGCCACUGCCUUGCCAGG
+((.(((.((((((((.((((((((((((.....((((.((.((((....))))))..)))))))))))))))).))))))))))).)) (-40.20)
+((.(((.((((((((.((((((((((((.....((((.((.((((....))))))..)))))))))))))))).))))))))))).)) [-40.87]
+((.(((.((((((((.((((((((((((.....((((.((.((((....))))))..)))))))))))))))).))))))))))).)) {-40.20 d=2.47}
+ frequency of mfe structure in ensemble 0.338419; ensemble diversity 4.09
+>mmu-let-7i MI0000138 Mus musculus let-7i stem-loop
+CUGGCUGAGGUAGUAGUUUGUGCUGUUGGUCGGGUUGUGACAUUGCCCGCUGUGGAGAUAACUGCGCAAGCUACUGCCUUGCUAG
+(((((.(((((((((((((((((.(((((.(((((.........)))))))........))).)))))))))))))))))))))) (-42.20)
+(((((.(((((((((((((((((.(((((.(((((.........)))))}}.......}))).)))))))))))))))))))))) [-43.22]
+(((((.(((((((((((((((((.(((.(.(((((.........)))))).........))).)))))))))))))))))))))) {-39.60 d=3.02}
+ frequency of mfe structure in ensemble 0.190275; ensemble diversity 4.60
+>mmu-mir-1a-1 MI0000139 Mus musculus miR-1a-1 stem-loop
+GCUUGGGACACAUACUUCUUUAUAUGCCCAUAUGAACCUGCUAAGCUAUGGAAUGUAAAGAAGUAUGUAUUUCAGGC
+((((((((.((((((((((((((((..(((((..............))))).)))))))))))))))).)))))))) (-31.90)
+((((((((.((((((((((((((((..(((((............,.))))).)))))))))))))))).)))))))) [-32.47]
+((((((((.((((((((((((((((..(((((..............))))).)))))))))))))))).)))))))) {-31.90 d=1.31}
+ frequency of mfe structure in ensemble 0.3973; ensemble diversity 2.19
+>mmu-mir-15b MI0000140 Mus musculus miR-15b stem-loop
+CUGUAGCAGCACAUCAUGGUUUACAUACUACAGUCAAGAUGCGAAUCAUUAUUUGCUGCUCUAG
+(((.(((((((.((.(((((((.(((.((.......))))).))))))).)).))))))).))) (-19.20)
+(((.(((((((.((.(((((((.(((.((.......))))).))))))).)).))))))).))) [-19.82]
+(((.(((((((.((.(((((((.(((.((.......))))).))))))).)).))))))).))) {-19.20 d=1.54}
+ frequency of mfe structure in ensemble 0.364264; ensemble diversity 2.62
+>mmu-mir-23b MI0000141 Mus musculus miR-23b stem-loop
+GGCUGCUUGGGUUCCUGGCAUGCUGAUUUGUGACUUGAGAUUAAAAUCACAUUGCCAGGGAUUACCACGCAACC
+((.(((.(((((((((((((((.((((((..............)))))))).))))))))))..))).))).)) (-28.80)
+((.(((.(((((((((((((((.((((((..............)))))))),})))))))))..))).))).)) [-29.90]
+((.(((.(((((((((((((((.((((((..............)))))))).))))))))))..))).))).)) {-28.80 d=2.73}
+ frequency of mfe structure in ensemble 0.167864; ensemble diversity 4.31
+>mmu-mir-27b MI0000142 Mus musculus miR-27b stem-loop
+AGGUGCAGAGCUUAGCUGAUUGGUGAACAGUGAUUGGUUUCCGCUUUGUUCACAGUGGCUAAGUUCUGCACCU
+(((((((((((((((((.((((.(((((((....(((...)))..)))))))))))))))))))))))))))) (-39.50)
+(((((((((((((((((.(({.(((((((({{...,,...,))},,)))))))}))))))))))))))))))) [-41.52]
+(((((((((((((((((.(((.(((((((((...........))..))))))))))))))))))))))))))) {-36.50 d=6.10}
+ frequency of mfe structure in ensemble 0.0374607; ensemble diversity 8.29
