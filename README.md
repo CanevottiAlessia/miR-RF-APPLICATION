@@ -94,7 +94,7 @@ The output file contains pre-miRNA names and their corresponding predictions:
 
 ### Installation
 
-Before beginning the installation, I recommend creating a new directory to neatly store all the requirements for the miR_RF . This will facilitate a clearer and more organized environment for running the application efficiently. 
+Before beginning the installation, I recommend creating a new directory to neatly store all the requirements for the miR_RF Application. This will facilitate a clearer and more organized environment for running the application efficiently. 
 To create a new directory, for example named "miR_RF_application", in your current location, use the following command in the terminal:
 
 ```bash
